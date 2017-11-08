@@ -1,0 +1,56 @@
+		/* Parent div style */
+		.parentdiv
+		{
+			margin: 50px 200px;
+			display: inline-block;
+			position: relative;
+		}		 
+
+		/* Child div style (making initial diplay to none so that contents will not be displayed*/
+		.childdiv {
+		    display: none;		       
+		    position: absolute;	  
+		    background-color: #f9f9f9;
+    		min-width: 180px;
+    		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);    		  	
+		}
+
+		/* on hovering parent division child division contents will be poped up */
+		.parentdiv:hover .childdiv	{
+			display: block;
+		}
+
+		/* on hovering parent division button background color will be changed */
+		.parentdiv:hover .courseslistbtn
+		{
+			 background-color: #3e8e41;
+		}
+
+		/* defining a class for button */
+		.courseslistbtn
+		{
+			padding: 15px; 	
+			background-color: green;
+			color: white;
+			border: none;
+			cursor: pointer;
+			font-size: 20px;			 
+		}
+
+		/* defining a style for anchor tags under child div */
+		.childdiv a
+		{
+			text-decoration: none;		
+			display: block;
+			color: black;
+			padding: 10px 15px;		
+			font-family: sans-serif; 
+		}
+
+		/* on hovering anchor tags background color will be changed to grey */
+		.childdiv a:hover
+		{
+			background-color: #D3D3D3;
+		}
+
+		 
